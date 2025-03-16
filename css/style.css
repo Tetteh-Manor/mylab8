@@ -1,6 +1,6 @@
-/* Top Navigation Styles */
+/* For Top Navigation Styles */
 nav {
-    background-color: blue;
+    background-color: rgba(84, 45, 182, 0.285);
     overflow: hidden;
     float: left;
     width: 100%;
@@ -31,7 +31,7 @@ nav ul li a {
     text-decoration: underline overline;
 }
 
-/* Side Navigation Styles */
+/* For Side Navigation Styles */
 aside {
     position: fixed;
     right: 0;
