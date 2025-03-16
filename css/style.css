@@ -1,0 +1,57 @@
+/* Top Navigation Styles */
+nav {
+    background-color: blue;
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    text-decoration: underline overline;
+}
+
+/* Side Navigation Styles */
+aside {
+    position: fixed;
+    right: 0;
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding: 0;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px 0;
+}
+
+aside ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+    padding: 15px 0;
+}
